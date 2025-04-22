@@ -1,0 +1,191 @@
+{
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "workbench.iconTheme": "symbols",
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "always"
+    }
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  "editor.linkedEditing": true,
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "git.confirmSync": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.restoreWindows": "none",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-noLogo"]
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "editor.fontFamily": "Cascadia Code PL",
+  "oneDarkPro.vivid": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#26292c",
+    "terminal.foreground": "#dddad6",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBrightBlack": "#686868",
+    "terminal.ansiBrightBlue": "#6A76FB",
+    "terminal.ansiBrightCyan": "#70d8b2",
+    "terminal.ansiBrightGreen": "#67F86F",
+    "terminal.ansiBrightMagenta": "#FD7CFC",
+    "terminal.ansiBrightRed": "#FD6F6B",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFFA72",
+    "terminal.ansiBlue": "#0A2FC4",
+    "terminal.ansiCyan": "#20C5C6",
+    "terminal.ansiGreen": "#1DC121",
+    "terminal.ansiMagenta": "#C839C5",
+    "terminal.ansiRed": "#C51E14",
+    "terminal.ansiWhite": "#C7C7C7",
+    "terminal.ansiYellow": "#dccb71",
+    "terminalCursor.foreground": "#a277ff"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+  "editor.stickyScroll.enabled": true,
+  "projectManager.sortList": "Path",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "java.jdt.ls.java.home": "c:\\Program Files\\Java\\jdk-17.0.2",
+  "hediet.vscode-drawio.resizeImages": null,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "c:\\Program Files\\Java\\jdk1.8.0_202"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "c:\\Program Files\\Java\\jdk-17.0.2",
+      "default": true
+    }
+  ],
+  "terminal.integrated.env.windows": {},
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": true,
+  "boot-java.rewrite.reconcile": true,
+  "console-ninja.showWhatsNew": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "console-ninja.featureSet": "Pro",
+  "maven.executable.options": "-PadminGPS",
+  "java.debug.settings.hotCodeReplace": "auto",
+  "console-ninja.allowedHosts": ["localhost:8080"],
+  "editor.minimap.enabled": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "editor.fontSize": 15,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+  "markdown-preview-enhanced.previewTheme": "monokai.css",
+  "console-ninja.warnOnNoToolsDetected": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDelete": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.activityBar.location": "top",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.xlsx": "default"
+  },
+  "gitlens.views.repositories.showStashes": true,
+  "explorer.compactFolders": false,
+  "java.autobuild.enabled": true,
+  "editor.tabSize": 2,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
+}
