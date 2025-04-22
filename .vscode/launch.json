@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Discovery-server",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.practicas.discovery_server.DiscoveryServerApplication",
+      "projectName": "discovery-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Microservice",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.practicas.microservice.MicroserviceApplication",
+      "projectName": "microservice",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Booking",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.practicas.booking.BookingApplication",
+      "projectName": "booking",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
